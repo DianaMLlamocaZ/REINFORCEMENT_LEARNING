@@ -1,6 +1,6 @@
 # Uso del algoritmo Q-Learning en el environment Frozen Lake
 
-## Descripción del environment Frozen Lake
+## 1) Descripción del environment Frozen Lake
 ### **Objetivo**:
 * El agente debe cruzar un lago congelado desde el inicio hasta la meta sin caer en ningún agujero.
 ![Environment](https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/Q-LEARNING/RL-FROZEN_LAKE/IMAGENES/Imagen1.JPG)
