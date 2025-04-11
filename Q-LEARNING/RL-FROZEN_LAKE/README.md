@@ -11,3 +11,10 @@
 
 ### **Espacio de observaciones**
 * El espacio de observaciones también es discreto. Son 16 observaciones posibles, al ser el mapa 4x4.
+
+### **Recompensas**
+* Las recompensas en el environment son las siguientes:
+  - alcanzar la meta: +1
+  - caer en un agujero: 0
+  - no logra la meta: 0
+ 
