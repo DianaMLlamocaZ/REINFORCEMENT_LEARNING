@@ -75,7 +75,8 @@ def training(learning_rate,discount_rate,epochs):
             #El estado actual debo actualizarlo
             obs_ac=obs_new
 
-        #Aquí aplico el decaimiento de epsilon. Mientras más alto sea el valor de la iteración, el agente priorizará la explotación
+        #Aquí aplico el decaimiento de epsilon. Mientras más alto sea el valor de la iteración, el agente priorizará elegir la acción que tiene mayor q_value en la tabla
+        #en ese estado determinante
         epsilon=max(0.01,epsilon*0.999)
 
         #Agrego a la lista de recompensas
