@@ -45,4 +45,4 @@ Además, es importante mencionar que en cada iteración, el environment se reini
 ----
 
 ## 3) Evaluación
-
+![EvaluaciónAgente](https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/Q-LEARNING/RL-FROZEN_LAKE/IMAGENES/frozenlake_agent.mp4)
