@@ -5,7 +5,7 @@
 ## Categorías de Proyectos:
 
 1. **Q-Learning**
-   - [Q-Learning_Frozen_Lake](./Q-LEARNING/RL-FROZEN_LAKE): Segmentación de imágenes utilizando una red neuronal convolucional (encoder-decoder) desde cero.
+   - [Q-Learning_Frozen_Lake](./Q-LEARNING/RL-FROZEN_LAKE): Usando el algoritmo Q-Learning para entrenar un agente desde cero y que logre cruzar un lago congelado desde el inicio hasta la meta sin caer en ningún agujero.
    
 ## Contacto
 
