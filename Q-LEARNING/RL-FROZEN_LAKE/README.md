@@ -28,5 +28,6 @@
 Además, es importante mencionar que en cada iteración, el environment se reiniciará para que el agente pueda aprender de experiencias 'independientes'. En otras palabras, cada iteración es una oportunidad que tiene el agente para que explore el entorno desde cero y aprenda nuevas experiencias.
 
 ### **Hiperparámetros**
-* Learning rate
-* 
+* Learning rate: El learning rate determina qué tanto se actualiza el valor Q (valor de la acción-estado) en cada paso del aprendizaje.
+* Discount rate: Este hiperparámetro determina qué tanto prioriza el agente la acción futura inmediata.
+* Epsilon decay: Este valor determina qué tanto decae el valor de epsilon. Mientras más pequeño sea el valor de epsilon, menos probabilidad de exploración tendrá el agente, priorizando así que el agente permita 'explotar' lo aprendido.
