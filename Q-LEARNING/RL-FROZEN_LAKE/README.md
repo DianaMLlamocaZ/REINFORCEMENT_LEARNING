@@ -39,3 +39,6 @@ Además, es importante mencionar que en cada iteración, el environment se reini
 * Epsilon decay: Este valor determina qué tanto decae el valor de epsilon. Mientras más pequeño sea el valor de epsilon, menos probabilidad de exploración tendrá el agente, priorizando así que el agente permita 'explotar' lo aprendido.
   
   - *Epsilon decae escogido*: 0.999
+
+## 3) Evaluación
+
