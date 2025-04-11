@@ -42,5 +42,7 @@ Además, es importante mencionar que en cada iteración, el environment se reini
   
   - *Epsilon decae escogido*: 0.999
 
+----
+
 ## 3) Evaluación
 
