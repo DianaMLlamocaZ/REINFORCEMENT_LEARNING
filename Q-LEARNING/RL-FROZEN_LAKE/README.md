@@ -29,5 +29,7 @@ Además, es importante mencionar que en cada iteración, el environment se reini
 
 ### **Hiperparámetros**
 * Learning rate: El learning rate determina qué tanto se actualiza el valor Q (valor de la acción-estado) en cada paso del aprendizaje.
+  *Learning rate escogido*: 0.05
 * Discount rate: Este hiperparámetro determina qué tanto prioriza el agente la acción futura inmediata.
+  *Discount rate escogido*: 0.9
 * Epsilon decay: Este valor determina qué tanto decae el valor de epsilon. Mientras más pequeño sea el valor de epsilon, menos probabilidad de exploración tendrá el agente, priorizando así que el agente permita 'explotar' lo aprendido.
