@@ -1,1 +1,1 @@
-Imágenes usadas para la descripción del proyecto
+Imágenes y gif usados para la descripción del proyecto
