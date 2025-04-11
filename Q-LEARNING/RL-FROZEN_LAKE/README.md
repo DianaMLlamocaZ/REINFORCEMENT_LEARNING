@@ -17,7 +17,9 @@
   - alcanzar la meta: +1
   - caer en un agujero: 0
   - no logra la meta: 0
- 
+
+----
+
 ## 2) Descripción del funcionamiento
 ### **Implementación de la política epsilon greedy**
 * El valor inicial de 'epsilon' será 1. A medida que se vayan dando más iteraciones, el valor de epsilon decaerá al multiplicársele un factor de decaimiento, lo que provocará que a medida que haya más entrenamiento, el modelo tenderá a 'explotar' lo aprendido. Es decir, preferirá seleccionar la acción que le genera más recompensa según lo aprendido.
