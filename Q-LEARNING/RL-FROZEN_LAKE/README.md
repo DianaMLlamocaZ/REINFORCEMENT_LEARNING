@@ -18,3 +18,4 @@
   - caer en un agujero: 0
   - no logra la meta: 0
  
+## 2) Descripción del funcionamiento
