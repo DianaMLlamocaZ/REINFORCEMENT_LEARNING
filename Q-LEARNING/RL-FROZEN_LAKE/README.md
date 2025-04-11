@@ -44,7 +44,7 @@ Además, es importante mencionar que en cada iteración, el environment se reini
 
 ----
 
-## 3) Evaluación
+## 3) Prueba del agente
 Muestro al agente en un episodio de prueba:
 
 ![EvaluaciónAgente](https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/Q-LEARNING/RL-FROZEN_LAKE/IMAGENES/frozenlake_agent.gif)
