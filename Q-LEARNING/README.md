@@ -1,7 +1,3 @@
-# Mi Portafolio de Reinforcement Learning
-
-¡Bienvenidos a mi portafolio! Aquí verás algunos de mis proyectos en **Reinforcement Learning** organizados por categoría. Cada proyecto tiene un repositorio con el código y los resultados obtenidos.
-
 ## Categorías de Proyectos:
 
 1. **Q-Learning**
