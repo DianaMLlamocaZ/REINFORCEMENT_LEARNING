@@ -21,14 +21,14 @@ def q_table():
 
 #Defino la política del epsilon (notar que el espacio de estados ya es discreto)
 def epsilon_greedy_policy(obs_ac_disc,epsilon,tabla):
-    #Número aleatorio. Rango: [0,1), para que haya probabilidades de que a medida que aumente el valor de las iteraciones, el agente priorice más la explotación que la exploración
+    #Número aleatorio. Rango: [0,1), para que haya probabilidades de que a medida que aumente el valor de las iteraciones, el agente priorice más la explotation que la exploration
     valor_random=np.random.random()
 
-    #Exploración
+    #Exploration
     if valor_random<epsilon:
         action=env.action_space.sample()
 
-    #Explotación
+    #Explotation
     else:
         #De lo contrario, se obtiene la acción con el mayor valor en ese estado
         action=np.argmax(tabla[obs_ac_disc])
