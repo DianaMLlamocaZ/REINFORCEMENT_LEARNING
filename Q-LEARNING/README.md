@@ -4,7 +4,7 @@
    - [Q-Learning_Frozen_Lake](./RL-FROZEN_LAKE): Uso el algoritmo Q-Learning para entrenar un agente desde cero y que logre cruzar un lago congelado desde el inicio hasta la meta sin caer en ningún agujero.
 
 2. **Q-Learning - Taxi**
-   - [Q-Learning_Taxi](./RL%20-%20Taxi): Implementación del algoritmo Q-Learning desde cero para entrenar a un agente (taxi), que aprenda a recoger al pasajero del lugar donde se encuentra y lo lleve a uno de los paraderos disponibles 
+   - [Q-Learning_Taxi](./RL%20-%20TAXI): Implementación del algoritmo Q-Learning desde cero para entrenar a un agente (taxi), que aprenda a recoger al pasajero del lugar donde se encuentra y lo lleve a uno de los paraderos disponibles 
    
 ## Contacto
 
