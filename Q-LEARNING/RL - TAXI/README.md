@@ -15,3 +15,6 @@
   - 3: Muévete hacia el oeste (izquierda)
   - 4: Recogida de pasajeros
   - 5: Dejar al pasajero
+
+### Espacio de observaciones:
+* Hay 500 estados discretos ya que hay 25 posiciones de taxi, 5 posibles ubicaciones del pasajero (incluido el caso en el que el pasajero está en el taxi) y 4 ubicaciones de destino.
