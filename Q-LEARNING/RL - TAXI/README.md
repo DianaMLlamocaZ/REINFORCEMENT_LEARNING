@@ -30,3 +30,9 @@ Q Learning es un algoritmo 'off-policy'. Por ese motivo, se utilizaron 2 políti
   
 - **Greedy policy**: Toma la acción con mayor Q-value en el estado siguiente inmediato para actualizar la Q-Table.
   ![](https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/Q-LEARNING/RL%20-%20TAXI/IMAGENES/PolicyUpd.JPG)
+
+
+## 3) Hiperparámetros
+* Learning Rate: El learning rate (taza de aprendizaje) controla qué tanto se va actualizar el valor actual respecto a la 'información nueva' (estado siguiente inmediato).
+
+* 
