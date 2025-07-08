@@ -33,6 +33,11 @@ Q Learning es un algoritmo **'off-policy'**. Por ese motivo, se utilizaron 2 pol
   <div align="center">
     <img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/Q-LEARNING/RL%20-%20TAXI/IMAGENES/EpsilonP.JPG">
   </div>
+
+- **Algoritmo Q-Learning**: Fórmula utilizada para actualizar la Q-Table
+  <div align="center">
+  <img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/Q-LEARNING/RL%20-%20TAXI/IMAGENES/QLearningAlgorithm.JPG">
+  </div>
   
 ---
 
