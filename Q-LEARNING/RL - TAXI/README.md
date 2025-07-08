@@ -23,6 +23,7 @@
 ## 2) Descripción del funcionamiento
 Q Learning es un algoritmo 'off-policy'. Por ese motivo, se utilizaron 2 políticas diferentes para actuar y actualiza la tabla Q:
 - **Epsilon policy acting**: Guía el comportamiento del agente --> exploration/exploitation.
+  A medida que el agente entrena, el valor de epsilon disminuye. Esto ocasiona que al agente pueda 'aplicar' lo aprendido utilizando el Q-value de la Q-Table.
   
 ![](https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/Q-LEARNING/RL%20-%20TAXI/IMAGENES/EpsilonPolicy.JPG)
   
