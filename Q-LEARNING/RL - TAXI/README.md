@@ -8,7 +8,7 @@
 </div>
 
 ### Espacio de acciones:
-El action space es discreto. Así, el agente puede realizar las siguientes acciones:
+* El action space es discreto. Así, el agente puede realizar las siguientes acciones:
 - 0: Mover hacia el sur (abajo)
 
 - 1: Moverse hacia el norte (arriba)
