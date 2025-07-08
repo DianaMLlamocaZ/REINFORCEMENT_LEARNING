@@ -33,6 +33,11 @@ Q Learning es un algoritmo 'off-policy'. Por ese motivo, se utilizaron 2 políti
 
 
 ## 3) Hiperparámetros
-* Learning Rate: El learning rate (taza de aprendizaje) controla qué tanto se va actualizar el valor actual respecto a la 'información nueva' (estado siguiente inmediato).
+* **Learning Rate**: El learning rate (taza de aprendizaje) controla qué tanto se va actualizar el valor actual respecto a la 'información nueva' (estado siguiente inmediato).
+  **Valor seleccionado**: 0.05
 
-* 
+* **Gamma**: Controla qué tan en cuenta se tomarán las recompensas futuras.
+  **Valor seleccionado**: 0.99
+
+* **Epsilon decay**: Este valor determina cuánto disminuirá el 'epsilon' en cada episodio.
+ **Valor seleccionado**: 0.001 --> Este número fue elegido ya que ocasiona que en la mitad de episodios de entrenamiento, el agente tenga un 50% de probabilidad de decidir si elegir una acción aleatoria (exploration) o elegir una acción en base a los valores de la Q-Table aprendida hasta ese momento (exploitation).
