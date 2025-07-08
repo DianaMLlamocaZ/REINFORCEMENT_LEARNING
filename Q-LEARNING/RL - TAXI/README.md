@@ -18,3 +18,9 @@
 
 ### Espacio de observaciones:
 * Hay 500 estados discretos ya que hay 25 posiciones de taxi, 5 posibles ubicaciones del pasajero (incluido el caso en el que el pasajero está en el taxi) y 4 ubicaciones de destino.
+
+
+## 2) Descripción del funcionamiento
+Q Learning es un algoritmo 'off-policy'. Por ese motivo, se utilizaron 2 políticas diferentes para actuar y actualiza la tabla Q:
+- **Epsilon policy acting**: Guía el comportamiento del agente --> exploration/exploitation.
+- **Greedy policy**: Toma la acción con mayor Q-value en ese estado para actualizar la Q-Table.
