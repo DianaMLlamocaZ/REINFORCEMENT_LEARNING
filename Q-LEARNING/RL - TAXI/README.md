@@ -1,1 +1,2 @@
-# 1)Q-Learning en Taxi Environment
+# Q-Learning en Taxi Environment
+## 1) Descripción del Taxi environment
