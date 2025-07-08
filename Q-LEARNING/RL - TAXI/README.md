@@ -67,4 +67,4 @@ A continuación, muestro al agente, en 3 episodios de test, tomando las acciones
 ## Nota:
 ¿Cómo el agente elige la acción de la Q-Table?
 Seleccionando la acción que tiene un mayor valor 'Q' para ese estado en la Q-Table entrenada:
-![](https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/Q-LEARNING/RL%20-%20TAXI/IMAGENES/EpsilonPolicy.JPG)
+![](https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/Q-LEARNING/RL%20-%20TAXI/IMAGENES/PolicyUpd.JPG)
