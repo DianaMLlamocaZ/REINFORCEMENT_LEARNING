@@ -63,7 +63,7 @@ for episodio in range(episodios):
         #El agente realiza esa acción en ese estado
         new_state,reward,terminated,truncated,info=env.step(action)
 
-        #Verifico si el agente logró pasar el juego (terminated) o perdió (truncated)
+        #Verifico si el agente logró pasar el juego (terminated) o superó el número de pasos por episodio (truncated)
         end=terminated or truncated
 
         #Actualizo el pair action-state en la Q_Table con la fórmula
