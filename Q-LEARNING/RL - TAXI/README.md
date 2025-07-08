@@ -9,9 +9,9 @@
 
 ### Espacio de acciones:
 * El action space es discreto. Así, el agente puede realizar las siguientes acciones:
- * 0: Mover hacia el sur (abajo)
- * 1: Moverse hacia el norte (arriba)
- * 2: Muévete hacia el este (derecha)
- * 3: Muévete hacia el oeste (izquierda)
- * 4: Recogida de pasajeros
- * 5: Dejar al pasajero
+ * - 0: Mover hacia el sur (abajo)
+ * - 1: Moverse hacia el norte (arriba)
+ * - 2: Muévete hacia el este (derecha)
+ * - 3: Muévete hacia el oeste (izquierda)
+ * - 4: Recogida de pasajeros
+ * - 5: Dejar al pasajero
