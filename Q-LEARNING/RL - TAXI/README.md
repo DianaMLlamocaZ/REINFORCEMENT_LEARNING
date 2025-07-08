@@ -30,8 +30,10 @@ Q Learning es un algoritmo **'off-policy'**. Por ese motivo, se utilizaron 2 pol
   ![](https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/Q-LEARNING/RL%20-%20TAXI/IMAGENES/EpsilonPolicy.JPG)
   
 - **Greedy policy**: Toma la acción con mayor Q-value en el estado siguiente inmediato para actualizar la Q-Table.
-  ![](https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/Q-LEARNING/RL%20-%20TAXI/IMAGENES/EpsilonP.JPG)
-
+  <div align="center">
+    <img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/Q-LEARNING/RL%20-%20TAXI/IMAGENES/EpsilonP.JPG">
+  </div>
+  
 ---
 
 ## 3) Hiperparámetros
