@@ -41,3 +41,7 @@ Q Learning es un algoritmo **'off-policy'**. Por ese motivo, se utilizaron 2 pol
 
 * **Epsilon decay**: Este valor determina cuánto disminuirá el 'epsilon' en cada episodio.
   - **Valor seleccionado**: 0.001 --> Este número fue elegido ya que ocasiona que en la mitad de episodios de entrenamiento, el agente tenga un 50% de probabilidad de decidir si elegir una acción aleatoria (exploration) o elegir una acción en base a los valores de la Q-Table aprendida hasta ese momento (exploitation).
+
+
+## 4) Prueba del agente
+A continuación, muestro al agente, en 2 episodios de test, tomando las acciones con mayor valor 'Q' de la Q-Table que aprendió durante del entrenamiento:
