@@ -19,6 +19,7 @@
 ### Espacio de observaciones:
 * Hay 500 estados discretos ya que hay 25 posiciones de taxi, 5 posibles ubicaciones del pasajero (incluido el caso en el que el pasajero está en el taxi) y 4 ubicaciones de destino.
 
+---
 
 ## 2) Descripción del funcionamiento
 Q Learning es un algoritmo **'off-policy'**. Por ese motivo, se utilizaron 2 políticas diferentes para actuar y actualizar la tabla Q:
@@ -31,6 +32,7 @@ Q Learning es un algoritmo **'off-policy'**. Por ese motivo, se utilizaron 2 pol
 - **Greedy policy**: Toma la acción con mayor Q-value en el estado siguiente inmediato para actualizar la Q-Table.
   ![](https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/Q-LEARNING/RL%20-%20TAXI/IMAGENES/PolicyUpd.JPG)
 
+---
 
 ## 3) Hiperparámetros
 * **Learning Rate**: El learning rate (taza de aprendizaje) controla qué tanto se va a actualizar el valor actual respecto a la 'información nueva' (estado siguiente inmediato).
@@ -44,7 +46,8 @@ Q Learning es un algoritmo **'off-policy'**. Por ese motivo, se utilizaron 2 pol
 
 * **Episodios**: El número de episodios es la cantidad de veces que el agente a a 'entrenarse'.
   - **Valor seleccionado**: 10000 --> Este número se eligió debido a que al reiniciar el ambiente (env.reset()), el estado es diferente. Por ese motivo, se necesitan más episodios de entrenamiento para actualizar la Q-Table de manera correcta. Así, cada vez que se origine un nuevo episodio, sea en la posición/estado que sea, el agente pueda elegir el valor más óptimo, ya que la tabla fue entrenada teniendo en cuenta esta inicialización aleatoria de estados cada vez que el ambiente se 'resetea'.
-    
+
+---
 
 ## 4) Prueba del agente
 A continuación, muestro al agente, en 3 episodios de test, tomando las acciones con mayor valor 'Q' de la Q-Table (state,action pair) que aprendió durante el entrenamiento (click al gif para iniciar la muestra):
