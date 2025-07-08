@@ -42,6 +42,9 @@ Q Learning es un algoritmo **'off-policy'**. Por ese motivo, se utilizaron 2 pol
 * **Epsilon decay**: Este valor determina cuánto disminuirá el 'epsilon' en cada episodio.
   - **Valor seleccionado**: 0.001 --> Este número fue elegido ya que ocasiona que en la mitad de episodios de entrenamiento, el agente tenga un 50% de probabilidad de decidir si elegir una acción aleatoria (exploration) o elegir una acción en base a los valores de la Q-Table aprendida hasta ese momento (exploitation).
 
+* **Episodios**: El número de episodios es la cantidad de veces que el agente a a 'entrenarse'.
+  - **Valor seleccionado**: 10000 --> Este número se eligió debido a que al reiniciar el ambiente (env.reset()), el estado es diferente. Por ese motivo, se necesitan más episodios de entrenamiento para actualizar la Q-Table de manera correcta. Así, cada vez que se origine un nuevo episodio, sea en la posición/estado que sea, el agente pueda elegir el valor más óptimo, ya que la tabla fue entrenada teniendo en cuenta esta inicialización aleatoria de estados cada vez que el ambiente se 'resetea'.
+    
 
 ## 4) Prueba del agente
 A continuación, muestro al agente, en 3 episodios de test, tomando las acciones con mayor valor 'Q' de la Q-Table (state,action pair) que aprendió durante el entrenamiento (click al gif para iniciar la muestra):
