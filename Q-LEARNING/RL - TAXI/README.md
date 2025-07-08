@@ -44,7 +44,7 @@ Q Learning es un algoritmo **'off-policy'**. Por ese motivo, se utilizaron 2 pol
 
 
 ## 4) Prueba del agente
-A continuación, muestro al agente, en 3 episodios de test, tomando las acciones con mayor valor 'Q' de la Q-Table (state,action pair) que aprendió durante el entrenamiento:
+A continuación, muestro al agente, en 3 episodios de test, tomando las acciones con mayor valor 'Q' de la Q-Table (state,action pair) que aprendió durante el entrenamiento (click al gif para iniciar la muestra):
 <div align="center">
   <img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/Q-LEARNING/RL%20-%20TAXI/IMAGENES/taxi_env.gif">
 </div>
