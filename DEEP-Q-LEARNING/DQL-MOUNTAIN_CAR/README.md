@@ -11,4 +11,5 @@ El action space es discreto. El agente puede tomar las siguientes acciones:
 - 2: Acelerar hacia la derecha
 
 ### **Espacio de observaciones**:
-El observation space es continuo. La observación es una ndarray que tiene la forma (2,), donde los elementos corresponden a lo siguiente:
+El observation space es continuo.
+La observación es un ndarray que tiene la forma (2,), donde los elementos corresponden a lo siguiente:
