@@ -31,5 +31,7 @@ Deep Q-Learning es un algoritmo **off-policy**, ya que usa 2 políticas distinta
 
 - **Greedy policy**: Una vez que el agente 'entrenó', se usará la main DQN network para elegir la mejor acción --> índice del output con mayor valor que da como resultado la red.
 
+![](https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/DEEP-Q-LEARNING/DQL-MOUNTAIN_CAR/IMAGENES/img_decide_action.JPG)
+
 - **Algoritmo Deep Q-Learning**:
 - 
