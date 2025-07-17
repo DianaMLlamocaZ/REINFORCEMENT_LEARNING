@@ -91,11 +91,12 @@ Luego de probar diferentes valores para los hiperparámetros, opté por los sigu
 ---
 
 ### 5) Resultados en los episodios de test:
-- Número de episodios de prueba: 10
-- Gráfica del número de 'pasos' en cada episodio: Mientras 'menos negativo' sea, significa que el agente necesitó menos pasos para llegar a la meta (su objetivo es llegar a la meta con el menor número de pasos posibles).
+- **Número de episodios de prueba**: 10
+- **Gráfica del número de 'pasos' en cada episodio**:
+    - Mientras 'menos negativo' sea, significa que el agente necesitó menos pasos para llegar a la meta (su objetivo es llegar a la meta con el menor número de pasos posibles).
   <div align="center">
       <img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/DEEP-Q-LEARNING/DQL-MOUNTAIN_CAR/IMAGENES/ep_pruebas.JPG">
   </div>
   
-- Promedio total de los 10 episodios:
-    - Media de pasos: 115.6
+- **Promedio total de los 10 episodios**:
+    - Media de pasos: 115.6 --> Significa que, en promedio, el agente necesita 115 pasos para llegar a la meta.
