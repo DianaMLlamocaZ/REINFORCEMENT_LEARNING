@@ -100,3 +100,9 @@ Luego de probar diferentes valores para los hiperparámetros, opté por los sigu
   
 - **Promedio total de los 10 episodios**:
     - Media de pasos: 115.6 --> Significa que, en promedio, el agente necesita 115 pasos para llegar a la meta.
+
+---
+
+### 6) Prueba visual:
+A continuación, muestro un gif del agente que entrené tratando de alcanzar la meta en 8 episodios de test (click sobre el gif para iniciar la muestra):
+![](https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/DEEP-Q-LEARNING/DQL-MOUNTAIN_CAR/IMAGENES/mountain_car.gif)
