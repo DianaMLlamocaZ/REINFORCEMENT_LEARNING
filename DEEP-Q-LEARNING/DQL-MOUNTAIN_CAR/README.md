@@ -78,8 +78,8 @@ A partir del siguiente pseudocódigo, realicé el entrenamiento del agente.
 
 ----
 
-### 4) Resultados:
-- **Hiperparámetros elegidos**: Luego de probar diferentes valores para los hiperparámetros, opté por los siguientes ya que el agente obtuvo un mejor performance.
+### 4) Hiperparámetros:
+Luego de probar diferentes valores para los hiperparámetros, opté por los siguientes ya que el agente obtuvo un mejor performance.
 ``` learning_rate=1e-3 #1x10''(-3)=0.001
     gamma=0.99
     epsilon=1
@@ -88,3 +88,6 @@ A partir del siguiente pseudocódigo, realicé el entrenamiento del agente.
     episodios=1000
     target_network_update_ep=10 #1000/10 --> 100 actualizaciones
 ```
+---
+
+### 5) Resultados:
