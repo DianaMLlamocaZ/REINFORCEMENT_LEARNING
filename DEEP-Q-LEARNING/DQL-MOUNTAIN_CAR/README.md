@@ -21,8 +21,8 @@ La observación es un ndarray que tiene la forma (2,), donde los elementos corre
 </div>
 
 ## 2) Descripción del funcionamiento
-Deep Q-Learning es un algoritmo off-policy, ya que usa 2 políticas distintas para decidir qué acción tomar la acción (exploration/exploitation) y cómo calcular el TD-Target.
-- Epsilon policy acting: Esta política guía al agente para dirigir su comportamiento sobre *cómo elegir la acción*. Si decidir una acción aleatoria o si selecciónar la acción que tiene un mayor q value.
+Deep Q-Learning es un algoritmo **off-policy**, ya que usa 2 políticas distintas para decidir qué acción tomar la acción (exploration/exploitation) y cómo calcular el TD-Target.
+- **Epsilon policy acting**: Esta política guía al agente para dirigir su comportamiento sobre *cómo elegir la acción*. Si decidir una acción aleatoria o si selecciónar la acción que tiene un mayor q value.
 
   ![](https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/Q-LEARNING/RL%20-%20TAXI/IMAGENES/EpsilonPolicy.JPG)
   
