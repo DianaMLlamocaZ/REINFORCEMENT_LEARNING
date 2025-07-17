@@ -68,7 +68,9 @@ Deep Q-Learning es un algoritmo **off-policy**, ya que usa 2 políticas distinta
       <img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/DEEP-Q-LEARNING/DQL-MOUNTAIN_CAR/IMAGENES/td_error.JPG">
       </div>
 
-====
+----
+
+
 
 ### 3) Pseudocódigo del algoritmo:
 A partir del siguiente pseudocódigo, realicé el entrenamiento del agente. 
