@@ -31,7 +31,7 @@ Deep Q-Learning es un algoritmo **off-policy**, ya que usa 2 políticas distinta
   ![](https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/Q-LEARNING/RL%20-%20TAXI/IMAGENES/EpsilonPolicy.JPG)
 
 
-- **Greedy policy**:Se usa una política "greedy" para seleccionar la 'siguiente' mejor acción del estado inmediato.
+- **Greedy policy**:Se usa una política "greedy" para seleccionar la 'siguiente' mejor acción del estado inmediato según la target network.
 <div align="center">
   <img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/DEEP-Q-LEARNING/DQL-MOUNTAIN_CAR/IMAGENES/greedy_img.JPG">
 </div>
