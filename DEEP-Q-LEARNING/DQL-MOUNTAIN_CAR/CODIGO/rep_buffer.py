@@ -8,7 +8,7 @@ class replay_buffer():
     def push(self,transition):  #Agrego la transición de cada paso
         self.__buffer.append(transition)
 
-    def sample(self,batch_dimen):
+    def sample(self,batch_dimen): #Selecciono 'batch_dimen' elementos del buffer al azar
         return random.sample(self.__buffer,batch_dimen)
 
     def length(self):  #Ver el size del buffer
