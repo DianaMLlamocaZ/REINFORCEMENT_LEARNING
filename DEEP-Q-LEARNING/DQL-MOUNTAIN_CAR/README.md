@@ -62,8 +62,15 @@ Deep Q-Learning es un algoritmo **off-policy**, ya que usa 2 políticas distinta
 <br>
 
 - d) **TD-Error**:
-    - Se calcula restanto el TD-Target y el 'q' value para el estado y acción actuales usando la main network:
+    - Se calcula restando el TD-Target y el 'q' value para el estado y acción actuales usando la main network:
       <br>
       <div align="center">
       <img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/DEEP-Q-LEARNING/DQL-MOUNTAIN_CAR/IMAGENES/td_error.JPG">
       </div>
+
+====
+
+### 3) Pseudocódigo del algoritmo:
+<div align="center">
+<img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/DEEP-Q-LEARNING/DQL-MOUNTAIN_CAR/IMAGENES/pseudocode.JPG">
+</div>
