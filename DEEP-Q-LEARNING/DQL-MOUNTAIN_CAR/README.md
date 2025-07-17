@@ -37,4 +37,8 @@ Deep Q-Learning es un algoritmo **off-policy**, ya que usa 2 políticas distinta
 </div>
 
 - **Algoritmo Deep Q-Learning**:
-- 
+- a) **Se implementan 2 redes para estabilizar el entrenamiento: main y target networks**
+- Cada "k" pasos (hiperparámetro), la target network se actualizará. Es decir, tendrá los mismos pesos que la main network con el objetivo de que el TD Target no 'cambie' constantemente (lo que sucedería si solo se tiene 1 red) y poder estabilizar el training.
+- b) **Se crea un replay buffer**
+- El replay buffer, de tamaño 'size' (hiperparámetro) servirá para almacenar las transiciones obtenidas en cada paso que da el agente. El objetivo de esta 'memoria' es hacer más 'eficiente' el entrenamiento almacenando y eligiendo muestras (cantidad de muestras igual al batch_size) de manera aleatoria para reutilizar algunas durante el entrenamiento y romper la correlación entre experiencias. 
+
