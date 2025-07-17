@@ -105,4 +105,6 @@ Luego de probar diferentes valores para los hiperparámetros, opté por los sigu
 
 ### 6) Prueba visual:
 A continuación, muestro un gif del agente que entrené tratando de alcanzar la meta en 8 episodios de test (click sobre el gif para iniciar la muestra):
-![](https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/DEEP-Q-LEARNING/DQL-MOUNTAIN_CAR/IMAGENES/mountain_car.gif)
+<div align="center">
+    <img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/DEEP-Q-LEARNING/DQL-MOUNTAIN_CAR/IMAGENES/mountain_car.gif">
+</div>
