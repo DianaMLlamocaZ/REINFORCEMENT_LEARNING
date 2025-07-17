@@ -86,4 +86,5 @@ A partir del siguiente pseudocódigo, realicé el entrenamiento del agente.
     batch_size=64
     buffer_size=5000
     episodios=1000
-    target_network_update_ep=10 #1000/10 --> 100 actualizaciones```
+    target_network_update_ep=10 #1000/10 --> 100 actualizaciones
+```
