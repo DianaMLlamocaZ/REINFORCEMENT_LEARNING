@@ -20,6 +20,8 @@ La observación es un ndarray que tiene la forma (2,), donde los elementos corre
 <img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/DEEP-Q-LEARNING/DQL-MOUNTAIN_CAR/IMAGENES/env_mc.JPG">
 </div>
 
+====
+
 ## 2) Descripción del funcionamiento
 Deep Q-Learning es un algoritmo **off-policy**, ya que usa 2 políticas distintas para decidir qué acción tomar (exploration/exploitation) y cómo calcular el TD-Target.
 - **Epsilon policy acting**:
