@@ -13,4 +13,6 @@ El action space es discreto. El agente puede tomar las siguientes acciones:
 ### **Espacio de observaciones**:
 El observation space es continuo.
 La observación es un ndarray que tiene la forma (2,), donde los elementos corresponden a lo siguiente:
-![](https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/DEEP-Q-LEARNING/DQL-MOUNTAIN_CAR/IMAGENES/env_mc.JPG)
+<div align="center">
+<img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/DEEP-Q-LEARNING/DQL-MOUNTAIN_CAR/IMAGENES/env_mc.JPG">
+</div>
