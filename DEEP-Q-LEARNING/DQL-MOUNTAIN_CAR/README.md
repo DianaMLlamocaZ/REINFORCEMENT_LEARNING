@@ -94,6 +94,7 @@ Luego de probar diferentes valores para los hiperparámetros, opté por los sigu
 - **Número de episodios de prueba**: 10
 - **Gráfica del número de 'pasos' en cada episodio**:
     - Mientras 'menos negativo' sea, significa que el agente necesitó menos pasos para llegar a la meta (su objetivo es llegar a la meta con el menor número de pasos posibles).
+      La 'única' recompensa que tiene el agente es cuando llega a la cima de la colina (reward=0); de lo contrario, -1. Por ese motivo, el objetivo del agente es que logre un valor menos negativo de los 200 pasos permitidos por episodio.
   <div align="center">
       <img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/DEEP-Q-LEARNING/DQL-MOUNTAIN_CAR/IMAGENES/ep_pruebas.JPG">
   </div>
