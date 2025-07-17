@@ -24,7 +24,7 @@ La observación es un ndarray que tiene la forma (2,), donde los elementos corre
 
 ## 2) Descripción del funcionamiento
 Deep Q-Learning es un algoritmo **off-policy**, ya que usa 2 políticas distintas para decidir qué acción tomar (exploration/exploitation) y cómo calcular el TD-Target.
-- <u>**Epsilon policy acting**:<u>
+- <u>**Epsilon policy acting**</u>:
     - Esta política guía al agente para dirigir su comportamiento sobre *cómo elegir la acción*. Si decidir una acción aleatoria o si selecciónar la acción que tiene un mayor q value según el output de la main DQN network.
     - A medida que el agente entrena, el valor de epsilon disminuye, incentivándolo a que pueda 'reforzar' los conocimientos adquiridos durante la etapa de exploración.
 
