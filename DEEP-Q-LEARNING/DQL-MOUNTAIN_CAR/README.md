@@ -16,3 +16,5 @@ La observación es un ndarray que tiene la forma (2,), donde los elementos corre
 <div align="center">
 <img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/DEEP-Q-LEARNING/DQL-MOUNTAIN_CAR/IMAGENES/env_mc.JPG">
 </div>
+
+## 2) Descripción del funcionamiento
