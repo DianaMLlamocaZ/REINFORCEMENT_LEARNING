@@ -37,7 +37,7 @@ Deep Q-Learning es un algoritmo **off-policy**, ya que usa 2 políticas distinta
 </div>
 
 - **Algoritmo Deep Q-Learning**:
-- - a) **Se implementan 2 redes para estabilizar el entrenamiento: main y target networks**
+  - a) **Se implementan 2 redes para estabilizar el entrenamiento: main y target networks**: 
   - Cada "k" pasos (hiperparámetro), la target network se actualizará. Es decir, tendrá los mismos pesos que la main network con el objetivo de que el TD Target no 'cambie' constantemente (lo que sucedería si solo se tiene 1 red) y poder estabilizar el training.
 
 <div align="center">
