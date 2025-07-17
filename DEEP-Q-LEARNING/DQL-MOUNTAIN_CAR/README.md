@@ -29,4 +29,4 @@ Deep Q-Learning es un algoritmo **off-policy**, ya que usa 2 políticas distinta
   ![](https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/Q-LEARNING/RL%20-%20TAXI/IMAGENES/EpsilonPolicy.JPG)
 
 
-  - **Greedy policy**: Una vez que el agente 'entrenó', se usará la main DQN network para tomar la acción con un mayor valor (índice del output que da como resultado la red).
+  - **Greedy policy**: Una vez que el agente 'entrenó', se usará la main DQN network para elegir la mejor acción --> índice del output con mayor valor que da como resultado la red.
