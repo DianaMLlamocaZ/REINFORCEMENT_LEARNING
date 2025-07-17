@@ -47,17 +47,15 @@ Deep Q-Learning es un algoritmo **off-policy**, ya que usa 2 políticas distinta
 <img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/DEEP-Q-LEARNING/DQL-MOUNTAIN_CAR/IMAGENES/networks.JPG">
 </div>
 
-<br>
-
-- b) **Se crea un replay buffer**:
-  - El replay buffer, de tamaño 'size' (hiperparámetro) servirá para almacenar las transiciones obtenidas en cada paso que da el agente. El objetivo de esta 'memoria' es hacer más 'eficiente' el entrenamiento almacenando y eligiendo muestras (cantidad de muestras igual al batch_size) de manera aleatoria para reutilizar algunas durante el entrenamiento y romper la correlación entre experiencias.
+    - b) **Se crea un replay buffer**:
+        - El replay buffer, de tamaño 'size' (hiperparámetro) servirá para almacenar las transiciones obtenidas en cada paso que da el agente. El objetivo de esta 'memoria' es hacer más 'eficiente' el entrenamiento almacenando y eligiendo muestras (cantidad de muestras igual al batch_size) de manera aleatoria para reutilizar algunas durante el entrenamiento y romper la correlación entre experiencias.
 
 <br>
  
 - c) **TD-Target**:
   - Se calcula el valor objetivo usando la target network:
       <br>
-      <div>
+      <div align="center">
           <img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/DEEP-Q-LEARNING/DQL-MOUNTAIN_CAR/IMAGENES/td_target.JPG">
       </div> 
 
