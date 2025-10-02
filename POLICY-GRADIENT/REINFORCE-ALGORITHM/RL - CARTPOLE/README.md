@@ -37,4 +37,5 @@ De dicha distribución de probabilidad, se samplearán las acciones, pero no ser
 <div align="center">
 <img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/POLICY-GRADIENT/REINFORCE-ALGORITHM/RL%20-%20CARTPOLE/IMAGENES/Actions_LogActions.JPG">
 </div>
-- - **NOTA**: Esta función devuelve la acción y el log de la probabilidad de la acción (importantes para actualizar la política)
+
+-  - **NOTA**: Esta función devuelve la acción y el log de la probabilidad de la acción (importantes para actualizar la política)
