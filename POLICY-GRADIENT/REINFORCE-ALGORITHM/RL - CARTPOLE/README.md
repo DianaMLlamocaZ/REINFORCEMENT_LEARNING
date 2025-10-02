@@ -44,5 +44,5 @@ De dicha distribución de probabilidad, se samplearán las acciones, pero no ser
   - **c.1) Cálculo del gradiente**: Para calcular el gradiente en *una trayectoria*, se usó la siguiente fórmula:
   
   <div align="center">
-  <img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/POLICY-GRADIENT/REINFORCE-ALGORITHM/RL%20-%20CARTPOLE/IMAGENES/GradientUpdate.JPG>
+  <img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/POLICY-GRADIENT/REINFORCE-ALGORITHM/RL%20-%20CARTPOLE/IMAGENES/GradientUpdate.JPG">
   </div>
