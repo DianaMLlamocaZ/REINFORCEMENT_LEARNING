@@ -12,7 +12,6 @@ Además, debido a la naturaleza 'Monte Carlo' del algoritmo, *la política se ac
 - 2 capas lineales seguidas de ReLU activation function para añadir no linealidad.
 - 1 capa final lineal con 'n' neuronas, donde 'n' es igual a la cantidad de acciones, seguida por la SoftMax activation function para obtener las probabilidades de cada acción:
   - CartPole --> Acciones: [0,1] --> 2 acciones
-    
-    **NOTA**: Usé la SoftMax activation function para que la suma de probabilidades individuales de las acciones sumen 1.
+  - **NOTA**: Usé la SoftMax activation function para que la suma de probabilidades individuales de las acciones sumen 1.
 
 # Funcionamiento del algoritmo
