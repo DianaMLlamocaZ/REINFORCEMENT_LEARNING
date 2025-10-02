@@ -1,5 +1,5 @@
 # POLICY-BASED METHODS: GRADIENT METHODS
-- En este repositorio, implementé algoritmos desde cero de RL que emplean el *policy-based methods* y el cálculo de gradientes para actualizar la política directamente.
+- En este repositorio, implementé algoritmos desde cero de RL que emplean el *policy-based method* y el cálculo de gradientes para actualizar la política directamente.
 
 - Implementé los algoritmos *from scratch* con el objetivo de entender su funcionamiento interno.
 
