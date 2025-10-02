@@ -62,3 +62,12 @@ De dicha distribución de probabilidad, se samplearán las acciones, pero no ser
   <div align="center">
   <img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/POLICY-GRADIENT/REINFORCE-ALGORITHM/RL%20-%20CARTPOLE/IMAGENES/LossFinal.JPG">
   </div>
+
+  - **c.4) Hiperparámetros utilizados**: A continuación, coloqué los hiperparámetros que usé para entrenar al modelo
+    - ```
+      #Hiperparámetros
+    episodes=1000
+    lr=1e-3
+    gamma=0.99
+    opt=torch.optim.Adam(modelo.parameters(),lr)
+      ```
