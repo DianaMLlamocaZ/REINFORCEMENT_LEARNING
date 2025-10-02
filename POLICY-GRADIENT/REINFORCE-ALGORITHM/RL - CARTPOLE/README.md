@@ -63,7 +63,7 @@ De dicha distribución de probabilidad, se samplearán las acciones, pero no ser
   <img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/POLICY-GRADIENT/REINFORCE-ALGORITHM/RL%20-%20CARTPOLE/IMAGENES/LossFinal.JPG">
   </div>
 
-  - **c.4) Hiperparámetros utilizados**: A continuación, coloqué los hiperparámetros que usé para entrenar al modelo
+  - **c.4) Hiperparámetros utilizados**: A continuación, muestro los hiperparámetros que usé para entrenar al modelo
     - ```
       #Hiperparámetros
       episodes=1000
