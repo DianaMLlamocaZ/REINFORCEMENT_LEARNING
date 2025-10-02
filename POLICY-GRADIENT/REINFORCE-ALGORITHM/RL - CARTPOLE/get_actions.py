@@ -14,19 +14,7 @@ modelo=Modelo(state_space,action_space) #Creación del modelo
 
 #obtener acción y el log de la probabilidad de esa acción
 def get_action_n_logprobs(state):
-    """state=torch.tensor(state,dtype=torch.float32).unsqueeze(0) #torch.float32 por default
-
-    action_probs=modelo(state) #action probabilities
-    print("action probs:",action_probs)
-    act_slt=torch.multinomial(action_probs,num_samples=1) #acción tomada por el agente
-    action=act_slt.item()
-    
-
-    log_action=torch.log(action_probs.squeeze(0)[action]) #log de esa acción específica
    
-
-    entropy=-torch.sum(action_probs.squeeze(0)*torch.log(action_probs.squeeze(0)))"""
-
     state = torch.tensor(state, dtype=torch.float32).unsqueeze(0)
     action_probs = modelo(state)
     
@@ -135,4 +123,5 @@ training()
 
 
 torch.save(modelo.state_dict(),"./modelo.pth")
+
 print("Modelo guardado!")
