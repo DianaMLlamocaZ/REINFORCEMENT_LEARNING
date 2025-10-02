@@ -24,4 +24,4 @@ Dichas recompensas representan las 'recompensas futuras esperadas' que espera ob
 
 ![RewardsToGo](https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/POLICY-GRADIENT/REINFORCE-ALGORITHM/RL%20-%20CARTPOLE/IMAGENES/RewardsToGo.JPG)
 
-    - **NOTA**: La variable *gamma* controla el valor de las recompensas obtenidas, que se usará posteriormente para actualizar la política. Previo a ello, se realizó una normalización de las recompensas para evitar la inestabilidad en el entrenamiento.
+- -**NOTA**: La variable *gamma* controla el valor de las recompensas obtenidas, que se usará posteriormente para actualizar la política. Previo a ello, se realizó una normalización de las recompensas para evitar la inestabilidad en el entrenamiento.
