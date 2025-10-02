@@ -4,4 +4,4 @@
 - Implementé los algoritmos *from scratch* con el objetivo de entender su funcionamiento interno.
 
 # ALGORITMOS
-- **Reinforce Algorithm**: Implementación desde cero del algoritmo Reinforce. Debido a la naturaleza 'Monte Carlo' del algoritmo, se utilizan trayectorias para calcular la 'estimación de recompensas' por episodio.  
+- **[Reinforce Algorithm](./REINFORCE-ALGORITHM)**: Implementación desde cero del algoritmo Reinforce. Debido a la naturaleza 'Monte Carlo' del algoritmo, se utilizan trayectorias para calcular la 'estimación de recompensas' por episodio.  
