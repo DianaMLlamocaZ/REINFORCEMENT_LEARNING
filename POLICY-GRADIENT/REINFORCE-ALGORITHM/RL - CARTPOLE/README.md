@@ -13,5 +13,6 @@ Además, debido a la naturaleza 'Monte Carlo' del algoritmo, *la política se ac
 - 1 capa final lineal con 'n' neuronas, donde 'n' es igual a la cantidad de acciones, seguida por la SoftMax activation function para obtener las probabilidades de cada acción:
   - CartPole --> Acciones: [0,1] --> 2 acciones
   - **NOTA**: Usé la SoftMax activation function para que la suma de probabilidades individuales de las acciones sumen 1 y posteriormente pueda usar un 'sampling' de la distribución para elegir las acciones que tomará el agente e incentivar una política estocástica, clave en *policy methods*.
-
+- Imagen de la arquitectura:
+  ![ArquitecturaPolicy]()
 # Funcionamiento del algoritmo
