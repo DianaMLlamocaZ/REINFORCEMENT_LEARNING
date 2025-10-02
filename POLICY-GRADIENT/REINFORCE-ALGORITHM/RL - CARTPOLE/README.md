@@ -9,8 +9,9 @@ Además, debido a la naturaleza 'Monte Carlo' del algoritmo, *la política se ac
 # Arquitectura de la política 
 - La política es un MLP, donde el input_size es la dimensionalidad de cada vector que representa un estado:
   - CartPole --> Dimensión de cada estado: [cart_position,cart_velocity,pole_angle,pole_angular_velocity] --> shape=(4,)
-- 2 capas lineas seguidas de ReLU activation function para añadir no linealidad.
-- 1 capa lineal con 'n' neuronas, donde 'n' es igual a la cantidad de acciones:
-  - CartPole --> Acciones: [0] o [1] --> shape=(1,)
+- 2 capas lineales seguidas de ReLU activation function para añadir no linealidad.
+- 1 capa final lineal con 'n' neuronas, donde 'n' es igual a la cantidad de acciones, seguida por la SoftMax activation function para obtener las probabilidades cada las acciones:
+  - CartPole --> Acciones: [0,1] --> 2 acciones
+    **NOTA**: Usé la SoftMax activation function para que la suma de probabilidades individuales de las acciones sumen 1.
 
 # Funcionamiento del algoritmo
