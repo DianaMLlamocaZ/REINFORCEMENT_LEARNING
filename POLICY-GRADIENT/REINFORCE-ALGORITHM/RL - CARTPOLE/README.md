@@ -1,4 +1,4 @@
-# Reinforce Algorithm
+# Reinforce Algorithm en CartPole
 Implementación del algoritmo Reinforce desde cero para el entendimiento de su funcionamiento interno.
 
 # Descripción
