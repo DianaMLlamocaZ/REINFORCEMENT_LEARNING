@@ -8,3 +8,5 @@ Además, debido a la naturaleza 'Monte Carlo' del algoritmo, *la política se ac
 
 # Funcionamiento del algoritmo
 ## Arquitectura de la política 
+- La política es un MLP, donde el input_size es la dimensionalidad de cada vector que representa un estado:
+  - CartPole --> Dimensión de cada estado: [cart_position,cart_velocity,pole_angle,pole_angular_velocity], shape=(4,)
