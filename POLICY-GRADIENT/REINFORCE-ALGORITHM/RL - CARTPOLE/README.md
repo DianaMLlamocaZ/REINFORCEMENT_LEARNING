@@ -39,3 +39,6 @@ De dicha distribución de probabilidad, se samplearán las acciones, pero no ser
 </div>
 
 -  - **NOTA**: Esta función devuelve la acción y el log de la probabilidad de la acción (importantes para actualizar la política)
+ 
+- ### **c) Entrenamiento: Fórmulas utilizadas**:
+- 
