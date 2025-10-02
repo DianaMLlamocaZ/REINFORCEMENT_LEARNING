@@ -41,7 +41,7 @@ De dicha distribución de probabilidad, se samplearán las acciones, pero no ser
 -  - **NOTA**: Esta función devuelve la acción y el log de la probabilidad de la acción (importantes para actualizar la política)
  
 - ### **c) Entrenamiento --> Fórmulas utilizadas**:
-  - **c.1) Cálculo del gradiente**: Para calcular el gradiente en *una trayectoria*, se usó la siguiente fórmula:
+  - **c.1) Cálculo del gradiente**: Para calcular el gradiente en *una trayectoria*, usé la siguiente fórmula:
   
   <div align="center">
   <img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/POLICY-GRADIENT/REINFORCE-ALGORITHM/RL%20-%20CARTPOLE/IMAGENES/GradientUpdate.JPG">
