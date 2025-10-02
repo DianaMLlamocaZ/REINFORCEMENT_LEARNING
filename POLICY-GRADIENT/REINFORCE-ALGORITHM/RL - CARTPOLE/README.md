@@ -32,7 +32,7 @@ Como se mencionó, el algoritmo Reinforce emplea el Approach de Monte Carlo para
 
 - ### **a) Rewards To Go**:
   - Se almacenan los valores de las recompensas obtenidas en cada paso que da el agente hasta que el episodio termine.
-Dichas recompensas representan las 'recompensas futuras' que espera obtener el agente si toma dicha acción en ese estado siguiendo la política actual, a partir de ese paso de tiempo 't' en adelante. 
+Dichas recompensas representan las 'recompensas futuras' (recompensas reales del environment) que espera obtener el agente si toma dicha acción en ese estado siguiendo la política actual, a partir de ese paso de tiempo 't' en adelante. 
 <div align="center">
 <img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/POLICY-GRADIENT/REINFORCE-ALGORITHM/RL%20-%20CARTPOLE/IMAGENES/RewardsToGo.JPG">
 </div>
