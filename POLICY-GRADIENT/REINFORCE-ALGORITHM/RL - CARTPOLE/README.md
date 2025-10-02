@@ -14,5 +14,6 @@ Además, debido a la naturaleza 'Monte Carlo' del algoritmo, *la política se ac
   - CartPole --> Acciones: [0,1] --> 2 acciones
   - **NOTA**: Usé la SoftMax activation function para que la suma de probabilidades individuales de las acciones sumen 1 y posteriormente pueda usar un 'sampling' de la distribución para elegir las acciones que tomará el agente e incentivar una política estocástica, clave en *policy methods*.
 - Imagen de la arquitectura:
+  
   ![ArquitecturaPolicy](https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/POLICY-GRADIENT/REINFORCE-ALGORITHM/RL%20-%20CARTPOLE/IMAGENES/ArquitecturaModelo.JPG)
 # Funcionamiento del algoritmo
