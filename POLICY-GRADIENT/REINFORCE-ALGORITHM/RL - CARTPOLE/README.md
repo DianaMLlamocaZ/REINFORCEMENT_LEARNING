@@ -28,5 +28,6 @@ Dichas recompensas representan las 'recompensas futuras esperadas' que espera ob
 - - **NOTA**: La variable *gamma* controla el valor de las recompensas obtenidas, que se usará posteriormente para actualizar la política. Previo a ello, se realizó una normalización de las recompensas para evitar la inestabilidad en el entrenamiento.
 
 - ### **b) Selección de acciones**:
-  - A cada acción se le atribuye una probabilidad, debido a la SoftMax activation function en la última capa. Ya que la suma de probabilidades individuales es 1, entonces se tiene una distribución de probabilidad.
+  - A cada acción se le atribuye una probabilidad, debido a la SoftMax activation function en la última capa.
+    Ya que la suma de probabilidades individuales es 1, entonces se tiene una distribución de probabilidad.
 De dicha distribución de probabilidad, se samplearán las acciones, pero no será un 'sampleo' completamente aleatorio, sino de acuerdo a las probabilidades individuales. Así, se introduce estocasticidad y también se fomenta el balance entre *exploration/explotation* en un paso, ya que es un algoritmo Off-Policy.
