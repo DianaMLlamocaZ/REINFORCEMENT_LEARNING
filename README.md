@@ -10,5 +10,5 @@
 2. **DEEP Q-LEARNING**
    - [Deep_Q_Learning](./DEEP-Q-LEARNING): Aquí almaceno proyectos de aprendizaje por refuerzo utilizando el algoritmo Deep Q-Learning para espacios de observaciones continuos.
 
-3. **POLICY METHODS: POLICY GRADIENT**
-   - [PolicyGradient](./POLICY-GRADIENT): Aquí almaceno proyectos de aprendizaje por refuerzo utilizando algoritmos basados en política, y que emplean el cálculo de gradientes para entrenar la política.
+3. **POLICY-BASED METHODS: POLICY GRADIENT**
+   - [PolicyGradient](./POLICY-GRADIENT): Aquí almaceno proyectos de aprendizaje por refuerzo que emplean *policy-based methods*, además del cálculo de gradientes para entrenar la política directamente.
