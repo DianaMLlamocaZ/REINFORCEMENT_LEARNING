@@ -6,10 +6,11 @@ Para la implementación de este algoritmo, utilicé el environment CartPole de G
 
 Además, debido a la naturaleza 'Monte Carlo' del algoritmo, *la política se actualiza utilizando trayectorias completas*, a diferencia de algoritmos que emplean el enfoque TD-Approach, donde la política se actualiza cada 'n_steps' y no necesariamente al final de los episodios debido al 'replay buffer'.  
 
-# Funcionamiento del algoritmo
-## Arquitectura de la política 
+# Arquitectura de la política 
 - La política es un MLP, donde el input_size es la dimensionalidad de cada vector que representa un estado:
   - CartPole --> Dimensión de cada estado: [cart_position,cart_velocity,pole_angle,pole_angular_velocity] --> shape=(4,)
 - 2 capas lineas seguidas de ReLU activation function para añadir no linealidad.
 - 1 capa lineal con 'n' neuronas, donde 'n' es igual a la cantidad de acciones:
   - CartPole --> Acciones: [0] o [1] --> shape=(1,)
+
+# Funcionamiento del algoritmo
