@@ -57,7 +57,7 @@ De dicha distribución de probabilidad, se samplearán las acciones, pero no ser
   - **c.3) Entrenamiento final**: Ya que las recompensas fueron normalizadas, y se tienen las log probabilidades para cada una de las acciones tomadas por el agente en esa trayectoria, calculo el gradiente multiplicando por -1 al loss, para convertir el problema de 'maximización de recompensas', a un problema de 'minimización de pérdida' (son equivalentes, y más viable en frameworks de DeepLearning):
     
   <div align="center">
-  <img src"=https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/POLICY-GRADIENT/REINFORCE-ALGORITHM/RL%20-%20CARTPOLE/IMAGENES/GradientDescent.JPG">
+  <img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/POLICY-GRADIENT/REINFORCE-ALGORITHM/RL%20-%20CARTPOLE/IMAGENES/GradientDescent.JPG">
   </div>
   <div align="center">
   <img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/POLICY-GRADIENT/REINFORCE-ALGORITHM/RL%20-%20CARTPOLE/IMAGENES/LossFinal.JPG">
