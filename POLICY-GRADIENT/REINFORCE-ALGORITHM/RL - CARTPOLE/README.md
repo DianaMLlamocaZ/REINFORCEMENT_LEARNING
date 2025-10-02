@@ -32,7 +32,8 @@ Dichas recompensas representan las 'recompensas futuras esperadas' que espera ob
 - ### **b) Selección de acciones**:
   - A cada acción se le atribuye una probabilidad, debido a la SoftMax activation function en la última capa.
   - Ya que la suma de probabilidades individuales es 1, entonces se tiene una distribución de probabilidad.
-De dicha distribución de probabilidad, se samplearán las acciones, pero no será un 'sampleo' completamente aleatorio, sino de acuerdo a las probabilidades individuales. Así, se introduce estocasticidad y también se fomenta el balance entre *exploration/explotation* en un paso, ya que es un algoritmo Off-Policy.
+De dicha distribución de probabilidad, se samplearán las acciones, pero no será un 'sampleo' completamente aleatorio, sino de acuerdo a las probabilidades individuales.
+  - De esta forma, se introduce estocasticidad y también se fomenta el balance entre *exploration/explotation* en un paso, ya que es un algoritmo Off-Policy.
 <div align="center">
 <img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/POLICY-GRADIENT/REINFORCE-ALGORITHM/RL%20-%20CARTPOLE/IMAGENES/Actions_LogActions.JPG">
 </div>
