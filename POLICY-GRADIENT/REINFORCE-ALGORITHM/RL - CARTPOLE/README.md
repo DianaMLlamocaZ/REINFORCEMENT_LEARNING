@@ -73,7 +73,7 @@ De dicha distribución de probabilidad, se samplearán las acciones, pero no ser
       ```
 
 # Prueba de la política entrenada:
-A continuación, muestro la política ya entrenada funcionando en 10 episodios de prueba en el entorno CartPole.
+A continuación, muestro la política ya entrenada, funcionando en 10 episodios de prueba en el entorno CartPole.
 <div align="center">
 <img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/POLICY-GRADIENT/REINFORCE-ALGORITHM/RL%20-%20CARTPOLE/IMAGENES/cartpole_result.gif">
 </div>
