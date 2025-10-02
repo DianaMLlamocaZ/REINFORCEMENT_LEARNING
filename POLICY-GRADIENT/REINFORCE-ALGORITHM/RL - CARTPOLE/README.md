@@ -66,8 +66,8 @@ De dicha distribución de probabilidad, se samplearán las acciones, pero no ser
   - **c.4) Hiperparámetros utilizados**: A continuación, coloqué los hiperparámetros que usé para entrenar al modelo
     - ```
       #Hiperparámetros
-    episodes=1000
-    lr=1e-3
-    gamma=0.99
-    opt=torch.optim.Adam(modelo.parameters(),lr)
+      episodes=1000
+      lr=1e-3
+      gamma=0.99
+      opt=torch.optim.Adam(modelo.parameters(),lr)
       ```
