@@ -19,12 +19,14 @@ Además, debido a la naturaleza 'Monte Carlo' del algoritmo, *la política se ac
 # Funcionamiento del algoritmo
 Como se mencionó, el algoritmo Reinforce emplea el Approach de Monte Carlo para actualizar la política. Es decir, actualiza la *política al final* de una trayectoria, y no cada 'n_steps' como lo realizarían los algoritmos basados en TD Approach.
 
-- **a) Rewards To Go**: Se almacenan los valores de las recompensas obtenidas en cada paso que da el agente hasta que el episodio termine.
+- ### **a) Rewards To Go**:
+Se almacenan los valores de las recompensas obtenidas en cada paso que da el agente hasta que el episodio termine.
 Dichas recompensas representan las 'recompensas futuras esperadas' que espera obtener el agente si toma dicha acción en ese estado siguiendo la política actual, a partir de ese paso de tiempo 't' en adelante. 
 
 ![RewardsToGo](https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/POLICY-GRADIENT/REINFORCE-ALGORITHM/RL%20-%20CARTPOLE/IMAGENES/RewardsToGo.JPG)
 
 - - **NOTA**: La variable *gamma* controla el valor de las recompensas obtenidas, que se usará posteriormente para actualizar la política. Previo a ello, se realizó una normalización de las recompensas para evitar la inestabilidad en el entrenamiento.
 
-- **b) Selección de acciones**: A cada acción se le atribuye una probabilidad, debido a la SoftMax activation function en la última capa. Ya que la suma de probabilidades individuales es 1, entonces se tiene una distribución de probabilidad.
+- ### **b) Selección de acciones**:
+A cada acción se le atribuye una probabilidad, debido a la SoftMax activation function en la última capa. Ya que la suma de probabilidades individuales es 1, entonces se tiene una distribución de probabilidad.
 De dicha distribución de probabilidad, se samplearán las acciones, pero no será un 'sampleo' completamente aleatorio, sino de acuerdo a las probabilidades individuales. Así, se introduce estocasticidad y también se fomenta el balance entre *exploration/explotation* en un paso, ya que es un algoritmo Off-Policy.
