@@ -46,5 +46,10 @@ De dicha distribución de probabilidad, se samplearán las acciones, pero no ser
   <div align="center">
   <img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/POLICY-GRADIENT/REINFORCE-ALGORITHM/RL%20-%20CARTPOLE/IMAGENES/GradientUpdate.JPG">
   </div>
-
+  
   - - **NOTA**: La actualización de la política la realicé al final de cada trayectoria.
+   
+  - **c.2) Manejo de la inestabilidad**: Para manejar la inestabilidad del entrenamiento, quizás por valores numéricos grandes en comparación a los pesos del modelo, normalicé las recompensas antes de calcular el gradiente:
+    <div align="center">
+    <img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/POLICY-GRADIENT/REINFORCE-ALGORITHM/RL%20-%20CARTPOLE/IMAGENES/Inestiblidad_Manejo.JPG">
+    </div>
