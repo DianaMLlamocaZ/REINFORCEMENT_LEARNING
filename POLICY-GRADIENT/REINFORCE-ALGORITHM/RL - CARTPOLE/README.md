@@ -2,7 +2,8 @@
 Implementación del algoritmo Reinforce desde cero para el entendimiento de su funcionamiento interno.
 
 # Archivos
-- get_actions.py: Contiene el código principal para entrenar el modelo (incluye sampleo de acciones, rewards_to_go, cálculo del gradiente y bucle de entrenamiento)
+- **get_actions.py:**
+  - Contiene el código principal para entrenar el modelo (incluye sampleo de acciones, rewards_to_go, cálculo del gradiente y bucle de entrenamiento)
 
 # Descripción
 Para la implementación de este algoritmo, utilicé el environment CartPole de GYM y un MLP con SoftMax como activation function en la última capa, ya que necesito obtener las probabilidades de cada acción en un estado.
