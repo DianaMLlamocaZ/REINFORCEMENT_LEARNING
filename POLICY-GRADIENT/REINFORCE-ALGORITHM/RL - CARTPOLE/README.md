@@ -2,13 +2,13 @@
 Implementación del algoritmo Reinforce desde cero para el entendimiento de su funcionamiento interno.
 
 # Archivos
-- **get_actions.py:**
+- **[get_actions.py](./get_actions.py):**
   - Contiene el código principal para entrenar el modelo (incluye sampleo de acciones, rewards_to_go, cálculo del gradiente y bucle de entrenamiento)
 
-- **policy.py:**
+- **[policy.py](./policy_py):**
   - Archivo que almacena la arquitectura de la política (modelo) en PyTorch.
 
-- **test.py:**
+- **[test.py](./test_py):**
   - Evaluación del modelo en episodios de test.
 
 # Descripción
