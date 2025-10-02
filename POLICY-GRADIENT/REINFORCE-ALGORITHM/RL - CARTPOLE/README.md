@@ -1,4 +1,4 @@
-# Proyectos Policy Gradient - Reinforce Algorithm
+# Reinforce Algorithm
 Implementación del algoritmo Reinforce desde cero para el entendimiento de su funcionamiento interno.
 
 # Descripción
