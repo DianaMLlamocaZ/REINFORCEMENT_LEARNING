@@ -79,7 +79,7 @@ De dicha distribución de probabilidad, se samplearán las acciones, pero no ser
 </div>
 
 # Recompensa promedio de los 10 episodios:
-- En promedio, la política tiene una recompensa acumulada de  480 +- 58.80 Lo cual refleja que la política a aprendido bien, teniendo en cuenta que la recompensa máxima por episodio es 500. 
+- En promedio, la política tiene una recompensa acumulada de  480 +- 58.80 Lo cual refleja que la política ha aprendido bien, teniendo en cuenta que la recompensa máxima por episodio es 500. 
 <div align="center">
 <img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/POLICY-GRADIENT/REINFORCE-ALGORITHM/RL%20-%20CARTPOLE/IMAGENES/RewardsTotal.JPG">
 </div>
