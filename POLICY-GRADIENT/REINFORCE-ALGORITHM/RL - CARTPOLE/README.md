@@ -46,3 +46,5 @@ De dicha distribución de probabilidad, se samplearán las acciones, pero no ser
   <div align="center">
   <img src="https://github.com/DianaMLlamocaZ/REINFORCEMENT_LEARNING/blob/main/POLICY-GRADIENT/REINFORCE-ALGORITHM/RL%20-%20CARTPOLE/IMAGENES/GradientUpdate.JPG">
   </div>
+
+  - - **NOTA**: La actualización de la política la realicé al final de cada trayectoria.
